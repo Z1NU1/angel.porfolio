@@ -712,26 +712,24 @@ nav {
 .thumb-color-4 { background: linear-gradient(145deg,#2A2025 0%,#1E151A 100%); }
 .thumb-color-5 { background: linear-gradient(145deg,#1E2030 0%,#141525 100%); }
 
-/* Medical System Cover */
-.medical-cover {
-  background:
-    linear-gradient(
-      rgba(15,17,23,0.15),
-      rgba(15,17,23,0.25)
-    ),
-    url('med.jpg');
-
+.proj-img {
+  position: relative;
+  overflow: hidden;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
-  position: relative;
 }
 
-/* Make label more visible */
-.medical-cover .thumb-label {
-  color: rgba(247,244,238,0.88);
-  text-shadow: 0 2px 12px rgba(0,0,0,0.4);
+.medical-cover {
+  background-image:
+    linear-gradient(rgba(15,17,23,0.15), rgba(15,17,23,0.25)),
+    url('med.jpg');
+}
+
+.queue-cover {
+  background-image:
+    linear-gradient(rgba(15,17,23,0.15), rgba(15,17,23,0.25)),
+    url('peequeue.png');
 }
 
 .proj-card::before {
