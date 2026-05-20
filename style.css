@@ -723,13 +723,13 @@ nav {
 .medical-cover {
   background-image:
     linear-gradient(rgba(15,17,23,0.15), rgba(15,17,23,0.25)),
-    url('med.jpg');
+    url('medi.jpg');
 }
 
 .queue-cover {
   background-image:
     linear-gradient(rgba(15,17,23,0.15), rgba(15,17,23,0.25)),
-    url('peequeue.png');
+    url('peequeue1.png');
 }
 
 .proj-card::before {
